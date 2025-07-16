@@ -225,3 +225,118 @@ nav a i {
             background-color: gold;
             color: black;
         }
+/* ========== Responsive Design Fixes for Mobile ========== */
+@media (max-width: 768px) {
+  /* NAVIGATION */
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+
+  /* BACKGROUND SECTION */
+  #bg {
+    font-size: 28px;
+    height: 500px;
+    padding: 20px;
+  }
+
+  /* ABOUT SECTION */
+  #about > h2 {
+    font-size: 28px;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  #aboutsec {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #aboutdiv > p {
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  #about-pic {
+    width: 90%;
+    height: 250px;
+    margin: 20px 0;
+    border-radius: 30px;
+  }
+
+  /* PROJECT SECTION */
+  #project > h2 {
+    font-size: 28px;
+  }
+
+  #project-sec {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #project-sec > div {
+    width: 90%;
+    text-align: center;
+  }
+
+  #pro-1 h3, #pro-2 h3, #pro-3 h3,
+  #pro-1 p, #pro-2 p, #pro-3 p {
+    font-size: 16px;
+  }
+
+  /* SKILLS SECTION */
+  #skills > h2 {
+    font-size: 30px;
+  }
+
+  #skill-sec {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #skill-1, #skill-2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  /* RESUME SECTION */
+  #resume > a {
+    font-size: 28px;
+  }
+
+  /* CONTACT SECTION */
+  #contact > h2 {
+    font-size: 30px;
+  }
+
+  #contact-sec {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #contact-form {
+    width: 100%;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 14px;
+  }
+
+  #contact-form button {
+    font-size: 16px;
+  }
+}

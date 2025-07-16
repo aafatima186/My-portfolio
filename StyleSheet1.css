@@ -1,4 +1,4 @@
-﻿
+
 #bg {
     background-image: url("nature.JPG");
     width: 100%;
@@ -55,7 +55,7 @@ nav a i {
 
 #about {
     
-    padding: 50px;
+    padding:50px;
     background-color: lightgoldenrodyellow;
 }
 
@@ -70,7 +70,7 @@ nav a i {
     text-indent:5%;
     text-decoration:underline;
 }
-#aboutdiv > p {
+.text-about {
     color: darkolivegreen;
     font-size: 20px;
     padding-left:10px;
@@ -95,7 +95,7 @@ nav a i {
 }
 #project-sec {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
 #pro-1>h3,p{
@@ -108,7 +108,16 @@ nav a i {
     #pro-3 > h3,p{
         color: cornsilk;
     }
-    
+    #pro-1>p{
+        text-align:left;
+    }
+    #pro-2>p{
+        text-align:left;
+
+    }
+    #pro-3>p{
+        text-align:left;
+    }
     #skills{
         padding:50px;
         
@@ -125,7 +134,7 @@ nav a i {
         }
         #skill-sec{
             display:flex;
-            justify-content:space-evenly;
+            justify-content:space-around;
         }
         #skill-2>h3,li{
             color:ivory;
@@ -137,7 +146,7 @@ nav a i {
         #skill-2>h3{
             font-size:30px;
         }
-        #skill-1{
+        #skill-1>h3{
             font-size:30px;
         }
 
@@ -225,118 +234,3 @@ nav a i {
             background-color: gold;
             color: black;
         }
-
-@media (max-width: 768px) {
-
-  nav {
-    flex-direction: column;
-    gap: 10px;
-    padding: 15px;
-  }
-
-  nav a {
-    font-size: 16px;
-  }
-
-
-  #bg {
-    font-size: 28px;
-    height: 500px;
-    padding: 20px;
-  }
-
-  
-  #about > h2 {
-    font-size: 28px;
-    text-align: center;
-    text-indent: 0;
-  }
-
-  #aboutsec {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #aboutdiv > p {
-    font-size: 16px;
-    padding: 10px;
-    text-align: justify;
-  }
-
-  #about-pic {
-    width: 90%;
-    height: 250px;
-    margin: 20px 0;
-    border-radius: 30px;
-  }
-
-  
-  #project > h2 {
-    font-size: 28px;
-  }
-
-  #project-sec {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  #project-sec > div {
-    width: 90%;
-    text-align: center;
-  }
-
-  #pro-1 h3, #pro-2 h3, #pro-3 h3,
-  #pro-1 p, #pro-2 p, #pro-3 p {
-    font-size: 16px;
-  }
-
-
-  #skills > h2 {
-    font-size: 30px;
-  }
-
-  #skill-sec {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  #skill-1, #skill-2 {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  li {
-    font-size: 16px;
-  }
-
-  
-  #resume > a {
-    font-size: 28px;
-  }
-
-  
-  #contact > h2 {
-    font-size: 30px;
-  }
-
-  #contact-sec {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  #contact-form {
-    width: 100%;
-  }
-
-  #contact-form input,
-  #contact-form textarea {
-    font-size: 14px;
-  }
-
-  #contact-form button {
-    font-size: 16px;
-  }
-

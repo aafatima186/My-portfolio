@@ -1,0 +1,227 @@
+﻿
+#bg {
+    background-image: url("nature.JPG");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+    font-family: 'Global Sans Serif';
+    font-size: 50px;
+    color: ghostwhite;
+
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; /* vertical center */
+    text-align: center; /* ensures centered text inside */
+}
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding:10px;
+  background-color:darkolivegreen;
+  position:fixed;
+  width:100%;
+   
+}
+nav a {
+  color: floralwhite;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+nav a span {
+  display: none; /* Hide text by default */
+  transition: opacity 0.3s;
+}
+
+nav a.active span {
+  display: inline; /* Show text only when active */
+  font-weight: bold;
+  color: yellow;
+}
+
+nav a i {
+  font-size: 18px;
+}
+
+
+#about {
+    
+    padding: 50px;
+    background-color: lightgoldenrodyellow;
+}
+
+#aboutsec{
+    display:flex;
+    justify-content:flex-start;
+}
+#about> h2  {
+    font-size: 40px;
+    color: darkolivegreen;
+    text-shadow:70px;
+    text-indent:5%;
+    text-decoration:underline;
+}
+#aboutdiv > p {
+    color: darkolivegreen;
+    font-size: 20px;
+    padding-left:10px;
+    padding-right:5px;
+    text-align:justify;
+}
+
+#project {
+    padding:50px;
+    background-color:darkgoldenrod;
+    
+
+}
+#project > h2 {
+    text-decoration: underline;
+    font-size: 40px;
+    color:cornsilk;
+ 
+    text-align:center;
+   
+    
+}
+#project-sec {
+    display: flex;
+    justify-content:space-between;
+}
+
+#pro-1>h3,p{
+    color:cornsilk;
+
+}
+    #pro-2 > h3,p{
+        color: cornsilk;
+    }
+    #pro-3 > h3,p{
+        color: cornsilk;
+    }
+    
+    #skills{
+        padding:50px;
+        
+        background-color:olive;
+    }
+        #skills > h2 {
+            text-decoration: underline;
+            font-size: 50px;
+            color:ivory;
+            text-align:center;
+        }
+        #skill-1>h3,li{
+            color:ivory;
+        }
+        #skill-sec{
+            display:flex;
+            justify-content:space-evenly;
+        }
+        #skill-2>h3,li{
+            color:ivory;
+
+        }
+        li{
+            font-size:20px;
+        }
+        #skill-2>h3{
+            font-size:30px;
+        }
+        #skill-1{
+            font-size:30px;
+        }
+
+#resume {
+    background-color:olivedrab;
+    padding: 50px;
+   text-align:center;
+}
+#resume > a {
+    text-decoration: underline;
+    font-size: 50px;
+    color: ivory;
+    text-align:center;
+} 
+#resume-p{
+    color:ivory;
+    font-size:20px;
+    text-align:center;
+}
+#resume>a:hover{
+    color:gold;
+
+}
+#contact{
+    padding:50px;
+    background-color:darkolivegreen;
+    text-align:center;
+}
+    #contact > h2 {
+        text-decoration: underline;
+        font-size: 50px;
+        color: ivory;
+        
+    }
+#contact-sec {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+}
+    #contact-sec > p {
+        color: ivory;
+        font-size: 20px;
+        text-align: center;
+        margin-top: -100px;
+        margin-bottom:40px;
+    }
+#contact-left {
+    max-width: 500px;
+    width: 100%;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+        #contact-form > label {
+            color: ivory;
+            font-size: 20px;
+            text-align:left;
+
+        }
+    #contact-form input,
+    #contact-form textarea {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    #contact-form button {
+        margin-top: 10px;
+        width:100px;
+        padding: 10px;
+        font-size: 18px;
+        background-color: ivory;
+        color: darkolivegreen;
+        
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+        #contact-form button:hover {
+            background-color: gold;
+            color: black;
+        }
